@@ -1,0 +1,53 @@
+:root {
+    --text: #dbdfac;
+    --bg: #2a1e5c;
+    --btn-bg: #d7f171;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: var(--text);
+    background-color:aliceblue;
+    font-family: 'Nerko One', cursive;
+  }
+  #container{
+    height: 10rem;
+    width: 30rem;
+    margin: 5rem auto auto auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+  }
+  #display{
+    background-color:#dbdfac;
+    height: 5rem;
+    width: 28rem;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    color: black;
+    padding-bottom: 0;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 5rem;
+    width: 28rem;
+    margin: 1rem auto 1rem auto;
+  }
+  #buttons div{
+    height: auto;
+    width: 5rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    color: #2a1e5c;
+    border: black solid 1px;
+    border-radius: 1rem;
+  }
